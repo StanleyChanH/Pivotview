@@ -1,0 +1,6 @@
+[submodule "receivemaix"]
+	path = receivemaix
+	url = https://github.com/StanleyChanH/RpiUARTRX.git
+[submodule "ServoController"]
+	path = ServoController
+	url = https://github.com/StanleyChanH/ServoController.git
