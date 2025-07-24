@@ -95,10 +95,8 @@
 
     为了让主程序能正确导入 receivemaix 和 ServoController，需要以可编辑模式安装它们。
     ```bash
-    cd receivemaix
-    uv sync
-    cd ../ServoController
-    uv sync
+    uv add -e ./receivemaix
+    uv add -e ./ServoController
     ```
 
 ## ⚙️ 配置
