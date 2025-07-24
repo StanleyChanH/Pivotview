@@ -1,7 +1,7 @@
 [project]
 name = "pivotview"
 version = "0.1.0"
-description = "Add your description here"
+description = "一个高性能、基于 AI 的二维视觉追踪云台项目。它使用 MaixCam Pro作为前端视觉感知单元，在树莓派上运行先进的控制算法，能够实现对人脸或目标的实时、平滑、智能的追踪。"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = []
