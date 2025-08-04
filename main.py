@@ -19,8 +19,8 @@ from ServoController.servo_controller_library import ServoController, ServoGroup
 # --- 1. 全局配置 ---
 # =============================================================================
 # MaixCam 摄像头输出的图像分辨率
-CAM_WIDTH = 224
-CAM_HEIGHT = 224
+CAM_WIDTH = 320 # 跟随yolov8n_face识别尺寸
+CAM_HEIGHT = 224 # 跟随yolov8n_face识别尺寸
 
 # 串口配置
 SERIAL_PORT = '/dev/ttyAMA0'
